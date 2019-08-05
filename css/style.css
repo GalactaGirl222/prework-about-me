@@ -1,5 +1,5 @@
 body {
-    color: #222222;
+    color:black;
     font-size: 1em;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -8,28 +8,30 @@ body {
 .masthead-heading,
 .masthead-intro {
   text-align: center;
+  color: pink
 }
 
 .masthead {
   padding: 6em 0;
-  background-image: url('../img/code.jpg');
+  background-image: url('https://qph.fs.quoracdn.net/main-qimg-3bd46bfe0d1bee80a856eecf843b1097.webp');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .masthead-intro {
+  .masthead-intro 
     margin-bottom: 0.1em;
     font-size: 2em;
-    color: #ffffff;
+    color: turquoise;
 }
 
 .masthead-heading {
     margin-top: -0.2em;
-    font-weight: bold;
+    font-weight: lighter;
     font-size: 6em;
     letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #ffffff;
+    text-transform: capitalize;
+    color: turquoise;
 }
 
 .details {
@@ -57,12 +59,12 @@ section > h1 {
 #footer {
   padding: 20px 0;
   text-align: center;
-  background-color: #111111;
+  background-color:turquoise;
   text-decoration: none;
 }
 
 #footer a {
-  color: #ffffff;
+  color:black;
 }
 .social > li {
   display: inline-block;
